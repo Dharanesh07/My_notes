@@ -14,7 +14,11 @@
     > dotfiles config --local status.showUntrackedFiles no
 
 4. add the alias to .bashrc (or .zshrc) so you can use it later
-    > echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
+    > mkdir ~/.config/zsh/
+
+    > touch ~/.config/zsh/aliasrc
+
+    > echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.config/zsh/aliasrc
 
 
 ## Setup environment in a new computer
@@ -55,7 +59,7 @@ This creates a new ssh key, using the provided email as a label.
     
     > git config --global color.ui true
     
-    > git config --global core.editor emacs
+    > git config --global core.editor nvim
 
 
 
