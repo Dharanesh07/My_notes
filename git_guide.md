@@ -48,6 +48,8 @@ This creates a new ssh key, using the provided email as a label.
 4. Add your ssh key to the ssh agent
     > ssh-add ~/.ssh/id_ed25519
 
+5. Add the ssh keys to the github account > settings > SSH and GPG keys
+
 # Github setup for fist time
 
 1. create folder named git in .config directory and create a file named config in "~/.config/git/config"
