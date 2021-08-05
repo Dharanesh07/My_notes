@@ -50,8 +50,11 @@ This creates a new ssh key, using the provided email as a label.
 
 2. Open a terminal/shell and type:
     > git config --global user.name "Your name here"
+    
     > git config --global user.email "your_email@example.com"
+    
     > git config --global color.ui true
+    
     > git config --global core.editor emacs
 
 
