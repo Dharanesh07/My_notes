@@ -1,8 +1,8 @@
-#Github dotfiles setup
+# Github dotfiles setup
 
-[reference](https://antelo.medium.com/how-to-manage-your-dotfiles-with-git-f7aeed8adf8b)
+[reference for dotfiles setup](https://antelo.medium.com/how-to-manage-your-dotfiles-with-git-f7aeed8adf8b)
 
-##Setup from scratch for the first time
+## Setup from scratch for the first time
 
 1. create a .dotfiles folder, which we'll use to track your dotfiles
     > git init --bare $HOME/.dotfiles
@@ -17,7 +17,7 @@
     > echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
 
 
-##Setup environment in a new computer
+## Setup environment in a new computer
 
 1. clone your github repository
     > git clone --bare https://github.com/USERNAME/dotfiles.git $HOME/.dotfiles
@@ -29,7 +29,7 @@
     > dotfiles checkout
 
 
-#Github ssh key setup guide
+# Github ssh key setup guide
 
 1. Paste the text below, substituting in your GitHub email address.
     > ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -44,7 +44,7 @@ This creates a new ssh key, using the provided email as a label.
 4. Add your ssh key to the ssh agent
     > ssh-add ~/.ssh/id_ed25519
 
-#Github setup for fist time
+# Github setup for fist time
 
 1. create folder named git in .config directory and create a file named config in "~/.config/git/config"
 
