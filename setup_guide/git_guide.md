@@ -4,7 +4,7 @@
 
 ## Setup from scratch for the first time
 
-* create a .dotfiles folder, which we'll use to track your dotfiles
+1. create a .dotfiles folder, which we'll use to track your dotfiles
     > git init --bare $HOME/.dotfiles
 
 2.  create an alias dotfilesso you don't need to type it all over again
